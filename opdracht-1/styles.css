@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*
+lichtgrijs #F7F7F7
+donkergrijs #d3d3d3
+*/
+
+
 .recipe-card {
+    font-family: 'Poppins';
+    border-style: outset;
+    border-color: #d3d3d3;
+    border-radius: 15px;
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
     /* Dit element heeft een vaste breedte van 350 pixels */
-    width: 350px;
+    width: 550px;
+    overflow: hidden;
 }
 
 /* - Vul dit document aan met jouw eigen css! - */
