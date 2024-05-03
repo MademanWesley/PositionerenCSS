@@ -7,20 +7,46 @@
     padding: 0;
 }
 
+////////*
+
+oranje #DE6127
+lichtgrijs #e8e8e8
+donkergrijs #737373
+
+kleuren voor de bolletjes
+#faa0c7
+#272729
+#928471
+#c2c2b4
+
+//////*/
+
 /////////*
 
 lichtgrijs #F7F7F7
 donkergrijs #d3d3d3
+
 
 /////*/
 
 .product {
     border-color: 1px red;
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
-    margin: 80px auto;
+
     /* Dit element heeft een vaste breedte van 350 pixels */
     width: 350px;
     border-radius: 5;
+    position: relative;
+
 }
+
+.container1 {
+    border: 1px solid #ccc; /* Rand om de div */
+    margin: 80px auto;
+    /*padding: 10px; !* Ruimte binnen de div *!*/
+    width: 350px;
+    overflow: hidden;
+}
+
 
 /* - Vul dit document aan met jouw eigen css! - */
