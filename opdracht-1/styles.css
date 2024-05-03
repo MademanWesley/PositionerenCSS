@@ -18,12 +18,40 @@ donkergrijs #d3d3d3
     font-family: 'Poppins';
     border-style: outset;
     border-color: #d3d3d3;
-    border-radius: 15px;
+    border-radius: 10px;
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
     /* Dit element heeft een vaste breedte van 350 pixels */
-    width: 550px;
+    width: 350px;
     overflow: hidden;
+    position: relative;
 }
+
+.grijze-balk {
+    display: inline-block; /* Maakt het mogelijk om de breedte en hoogte in te stellen */
+    background-color: #F7F7F7; /* Grijze kleur */
+    height: 20px; /* Hoogte van de balk */
+    width: 350px; /* Breedte van de balk */
+}
+
+.image-pastasalade {
+    max-width: 100%; /* Zorgt ervoor dat de container nooit breder is dan het scherm */
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Zorgt ervoor dat de afbeelding nooit breder is dan de container */
+    height: auto; /* Behoudt de juiste hoogte in verhouding tot de breedte */
+    margin: -5px;
+}
+
+.hartje {
+    position: absolute;
+    top: 20px;
+    right: -60px;
+    width: 100px; /* Breedte van de afbeelding */
+    height: 100px; /* Hoogte van de afbeelding */
+}
+
 
 /* - Vul dit document aan met jouw eigen css! - */
