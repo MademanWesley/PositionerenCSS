@@ -7,8 +7,8 @@
     padding: 0;
 }
 
-////////*
-
+/*
+///////
 oranje #DE6127
 lichtgrijs #e8e8e8
 donkergrijs #737373
@@ -21,32 +21,74 @@ kleuren voor de bolletjes
 
 //////*/
 
-/////////*
+/*
 
 lichtgrijs #F7F7F7
 donkergrijs #d3d3d3
 
 
 /////*/
-
+/*
 .product {
-    border-color: 1px red;
-    /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
+    border: 1px red;
+    !* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*!
 
-    /* Dit element heeft een vaste breedte van 350 pixels */
+    !* Dit element heeft een vaste breedte van 350 pixels *!
     width: 350px;
     border-radius: 5;
     position: relative;
 
+}*/
+
+
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: #c2c2b4;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #928471;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: #272729;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: #faa0c7;
+    border-radius: 50%;
+    display: inline-block;
 }
 
-.container1 {
-    border: 1px solid #ccc; /* Rand om de div */
-    margin: 80px auto;
-    /*padding: 10px; !* Ruimte binnen de div *!*/
+.model img:first-of-type {
     width: 350px;
-    overflow: hidden;
+}
+.model img:last-of-type {
+    width: 25px;
+    height: 25px;
+    margin-left: -45px;
+    margin-bottom: 10px;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    width: 350px;
+    margin-top: 25vh;
+}
 
 /* - Vul dit document aan met jouw eigen css! - */
