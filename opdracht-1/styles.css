@@ -16,8 +16,7 @@ donkergrijs #d3d3d3
 
 .recipe-card {
     font-family: 'Poppins';
-    border-style: outset;
-    border-color: #d3d3d3;
+    border: none;
     border-radius: 10px;
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
@@ -25,14 +24,30 @@ donkergrijs #d3d3d3
     width: 350px;
     overflow: hidden;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .grijze-balk {
-    display: inline-block; /* Maakt het mogelijk om de breedte en hoogte in te stellen */
     background-color: #F7F7F7; /* Grijze kleur */
-    height: 20px; /* Hoogte van de balk */
+    height: 25px; /* Hoogte van de balk */
     width: 350px; /* Breedte van de balk */
+    display: flex;
+
 }
+.grijze-balk img{
+    width: 15px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.beschrijving
+{
+    height: 50px;
+    margin-left: 25px;
+    align-content: center;
+}
+
+
 
 .image-pastasalade {
     max-width: 100%; /* Zorgt ervoor dat de container nooit breder is dan het scherm */
